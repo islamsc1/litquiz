@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section } from '../types';
+import { Section } from '../types.ts';
 import { BookOpen, ScrollText, BrainCircuit, ChevronRight } from 'lucide-react';
 
 interface SectionSelectorProps {

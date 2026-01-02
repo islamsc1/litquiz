@@ -1,4 +1,4 @@
-import { Section } from './types';
+import { Section } from './types.ts';
 
 // Helper to create options easily
 // Note: Based on the OCR provided, the correct answers were identified by bold text.

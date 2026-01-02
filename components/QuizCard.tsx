@@ -1,5 +1,5 @@
 import React from 'react';
-import { Question } from '../types';
+import { Question } from '../types.ts';
 import { CheckCircle2, XCircle } from 'lucide-react';
 
 interface QuizCardProps {

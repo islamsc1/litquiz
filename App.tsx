@@ -1,9 +1,9 @@
 import React, { useState, useMemo } from 'react';
-import SectionSelector from './components/SectionSelector';
-import QuizCard from './components/QuizCard';
-import Results from './components/Results';
-import { QUIZ_DATA } from './data';
-import { QuizState } from './types';
+import SectionSelector from './components/SectionSelector.tsx';
+import QuizCard from './components/QuizCard.tsx';
+import Results from './components/Results.tsx';
+import { QUIZ_DATA } from './data.ts';
+import { QuizState } from './types.ts';
 import { ArrowRight, ChevronLeft, GraduationCap } from 'lucide-react';
 
 export default function App() {
